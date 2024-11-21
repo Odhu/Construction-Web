@@ -1,0 +1,153 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(214, 213, 208);
+}
+h1 {
+    color: rgb(34, 33, 33);
+    text-shadow: 1px 1px 2px rgb(214, 210, 210);
+}
+h3 {
+    color: rgb(76, 74, 83);
+    font-family: "Avenir Next";
+}
+a.navbar-brand h2 {
+    font-family: "Avenir Next";
+}
+.nav-item {
+    border: 2px solid rgb(235, 122, 16);;
+    border-radius: 10px;
+    background-color: rgb(235, 231, 231);
+    margin-right: 10px;
+}
+.nav-item:hover {
+    transform: scale(1.05) translateY(-2px);
+    background-color: rgb(253, 220, 159);
+}
+.carousel-inner {
+    font-family: "Avenir Next";
+}
+.carousel-inner h3 , h4 {
+    color: rgb(230, 122, 21);
+}
+
+span-1 {
+    color: rgb(76, 74, 83);
+}
+span {
+    color: rgb(230, 122, 21);
+}
+.row1 {
+    border-bottom: 3px solid gray;
+}
+a.navbar-brand {
+    margin-right: 46%;
+}
+.navbar-brand img {
+    float: left;
+    width: 90px;
+    padding-right: 10px;
+    margin-left: 30%;
+}
+.navbar-brand h1 {
+	font-size: 30px;
+	padding-top: 8px;
+	line-height: 44px;
+	margin-top: 0;
+	margin-bottom: 2px;
+}
+.navbar-brand h2 {
+	font-size: 16px;
+	padding: 0;
+	line-height: 8px;
+	margin: 0;
+	font-variant: small-caps;
+}
+.col-md-7 h3 {
+    text-align: center;
+}
+#tabkontak {
+    font-size: 1.5rem;
+    margin-left: 5%;
+}
+#tabkontak td {
+    vertical-align: top;
+}
+
+.carousel h1 {
+    border-bottom: 3px solid grey;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.gedung img {
+    border-radius: 10px;
+    box-shadow: 1px 1px 40px #587396;
+    border: 3px solid gray;
+    transition: transform 0.3s;
+}
+.gedung img:hover {
+    transform: scale(1.05) translateY(-2px);
+}
+.card {
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 20px #587396;
+    border: 3px solid gray;
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: scale(1.05) translateY(-2px);
+}
+.card-text {
+    text-align: center;
+    color: rgb(8, 53, 199);
+    font-family: "Avenir Next";
+    font-size: 20px;
+}
+#testimoni {
+    text-align: center;
+}
+.foto img {
+    margin-top: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+	border: 2px solid chocolate;
+}
+.komentar {
+    text-align: center;
+}
+.namanya  {
+    text-align: center;
+    color: #1c27b4;
+    padding-top: 5px;
+    font-size: 20px;
+}
+.gelar {
+    text-align: center;
+    color: darkorange;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-bottom: 3px solid grey;
+}
+#bt-up {
+    position: fixed;
+    z-index: 99;
+    right: 10px;
+    bottom: 10px;
+}
+#bt-up a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: grey;
+    opacity: 0.2;
+}
+#bt-up a:hover {
+    opacity: 1;
+}
+@media (max-width: 1300px) {
+	.navbar-brand span {
+		display: none;
+	}
+}
